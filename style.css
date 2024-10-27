@@ -62,7 +62,7 @@ h6 {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: var(--color-neutral-600);
+  background-color: var(--color-neutral-400);
   font-family: var(--ff-df);
   font-size: var(--fs-df);
   min-height: 100vh;
@@ -157,6 +157,7 @@ body {
   background-color: var(--color-neutral-600);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  font-weight: var(--fw-bold);
 }
 
 /* Success page styles */
@@ -261,6 +262,7 @@ body {
     flex-direction: row-reverse;
     margin: 0;
     margin-block: 4rem;
+    max-width: 92.8rem;
 
     padding: 2.4rem;
     width: auto;
@@ -277,7 +279,7 @@ body {
   }
   .cta__content {
     padding: 0;
-    padding-inline-start: 6.4rem;
+    padding-inline-start: 4rem;
   }
 
   .cta__title {
