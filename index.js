@@ -42,3 +42,7 @@ input.addEventListener("click", () => {
   input.classList.remove("form-input--error");
   errorMessage.classList.add("hidden");
 });
+input.addEventListener("input", () => {
+  input.classList.remove("form-input--error");
+  errorMessage.classList.add("hidden");
+});
