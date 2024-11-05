@@ -29,7 +29,6 @@ function validateEmail() {
 
     errorMessage.textContent = oldErrorMessage;
     input.classList.add("form-input--error");
-    input.value = emailInput.replace("@", "#");
   }
   if (emailInput === "") {
     errorMessage.classList.remove("hidden");
